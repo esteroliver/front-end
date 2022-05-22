@@ -1,0 +1,11 @@
+#missao{
+    font-size: 20px;
+}
+body{
+    text-align: center;
+    background-color: #cccccc;
+}
+
+#missao strong{
+    color: red;
+}
