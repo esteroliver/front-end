@@ -1,11 +1,36 @@
-#missao{
-    font-size: 20px;
-}
 body{
     text-align: center;
     background-color: #cccccc;
+    margin: 0px;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+#missao{
+    font-size: 20px;
 }
 
 #missao strong{
     color: red;
+}
+
+#beneficios{
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+}
+#itens{
+    width: 300px;
+}
+#itens li {
+    text-align: left;
+    margin: auto;
+    font-size: larger;
+    font-style: italic;
+}
+
+article{
+    display: flex;
+    position: relative;
 }
