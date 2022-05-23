@@ -3,10 +3,18 @@ body{
     background-color: #cccccc;
     margin: 0px;
 }
+h1{
+    text-align: left;
+    text-indent: 2em;
+    background-color: white;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
 img{
     width: 200px;
     height: 300px;
 }
+
 #missao{
     font-size: 20px;
 }
@@ -29,8 +37,17 @@ img{
     font-size: larger;
     font-style: italic;
 }
-
-article{
+#beneficios article{
+    margin: auto;
+}
+#display{
     display: flex;
-    position: relative;
+    margin: auto;
+}
+#texto{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 10px;
 }
